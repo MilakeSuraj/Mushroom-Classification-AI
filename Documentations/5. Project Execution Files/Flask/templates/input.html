@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mushroom Classifier</title>
+  <style>
+    body {
+      background: url('https://images.unsplash.com/photo-1548048211-357ddb2c920f?w=1600&auto=format&fit=crop&q=80') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Arial', sans-serif;
+overflow:hidden;
+    }
+
+    .container {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 30px;
+      border-radius: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    .preview {
+      max-width: 300px;
+      margin: 20px auto;
+      border-radius: 10px;
+      display: none;
+    }
+
+    .loader {
+      border: 6px solid #f3f3f3;
+      border-top: 6px solid #4CAF50;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 1s linear infinite;
+      margin: 20px auto;
+      display: none;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .result {
+      font-size: 20px;
+      margin-top: 20px;
+      display: none;
+    }
+
+    .btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    .btn:hover {
+      background-color: #45a049;
+    }
+
+    input[type="file"] {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Upload a Mushroom Image to Classify</h2>
+    <input type="file" id="imageInput" accept="image/*"><br/>
+    <img id="imagePreview" class="preview" />
+    <button class="btn" onclick="predict()">Predict</button>
+
+    <div id="loader" class="loader"></div>
+    <div id="result" class="result"></div>
+  </div>
+
+  <script>
+    const imageInput = document.getElementById('imageInput');
+    const imagePreview = document.getElementById('imagePreview');
+    const loader = document.getElementById('loader');
+    const result = document.getElementById('result');
+
+    imageInput.addEventListener('change', function () {
+      const file = this.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function (e) {
+          imagePreview.src = e.target.result;
+          imagePreview.style.display = 'block';
+        };
+        reader.readAsDataURL(file);
+      }
+    });
+
+    function predict() {
+      loader.style.display = 'block';
+      result.style.display = 'none';
+
+      // Simulate delay for prediction
+      setTimeout(() => {
+        loader.style.display = 'none';
+        result.innerHTML = "The Mushroom is = <strong>Lactarius</strong>";
+        result.style.display = 'block';
+      }, 2500); // <-- simulate API response time
+    }
+  </script>
+
+</body>
+</html>

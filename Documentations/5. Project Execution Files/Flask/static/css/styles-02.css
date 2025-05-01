@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+  }
+  .overlay {
+    background-color: rgba(255, 255, 255, 0.85); /* White with 85% opacity */
+    min-height: 100vh;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  
+  .ai_body_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  .header {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .header h3 {
+    color: #222;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .ai_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-left: 30px;
+  }
+  
+  .ai_content {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  }
+  
+  #title {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 22px;
+    color: #111;
+  }
+  
+  #detail_about_title {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .ai_actions {
+    margin-top: 25px;
+    width: 40%;
+  }
+  
+  #predict_btn {
+    background: linear-gradient(135deg, #4caf50, #2e7d32);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 25px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+  }
+  
+  #predict_btn:hover {
+    background: linear-gradient(135deg, #388e3c, #1b5e20);
+  }
+  
+  .image_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    transform: scaleX(-1);
+  }
+  
+  .image_box img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  

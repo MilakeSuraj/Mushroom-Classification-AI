@@ -53,7 +53,7 @@ The dataset is organized in the Dataset folder with separate test and train dire
 - Lactarius
 - Russula
 
-### 🌱 **Future Improvements**
+## 🌱 **Future Improvements**
 
 🔍 _Expand dataset to include more mushroom species_
 
@@ -63,7 +63,7 @@ The dataset is organized in the Dataset folder with separate test and train dire
 
 🗺️ _Use location-based data to improve prediction context_
 
-### ✅ **Achievements**
+## ✅ **Achievements**
 
 🎯 _Built and trained a robust image classifier with 88% accuracy_
 
@@ -73,7 +73,7 @@ The dataset is organized in the Dataset folder with separate test and train dire
 
 ☁️ _Integrated IBM Cloud-ready deployment structure_
 
-### 📌**Conclusion**
+## 📌**Conclusion**
 
 This project showcases the potential of deep learning for biodiversity conservation and biological classification. It can assist in the safe identification of mushrooms, promote awareness of species, and serve as a valuable learning tool for enthusiasts and researchers alike.
 

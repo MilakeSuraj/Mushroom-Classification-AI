@@ -1,91 +1,40 @@
-# **Uncovering the Hidden Treasures of the Mushroom Kingdom: A Classification Analysis**
+# Uncovering the Hidden Treasures of the Mushroom Kingdom: A Classification Analysis
 
-## **Project Description**
-- This project focuses on the classification of different types of mushrooms found in various regions of the world. The classification is based on images of mushrooms, and the goal is to use deep learning techniques for accurate species recognition.
-- By applying transfer learning and deep learning methodologies, the project aims to accurately classify mushrooms into three main categories: Boletus, Lactarius, and Russula. These categories represent different types of mushrooms found in diverse regions worldwide. The ultimate objective is to develop a robust and reliable classification system for mushroom species recognition based on their visual attributes.
+![Banner](<https://github.com/MilakeSuraj/Tic_Tac_Toe_Game/blob/main/Beige%20Modern%20Elegant%20Personal%20LinkedIn%20Banner%20(1).png?raw=true>)
 
-## **Screenshots**
+# Project Overview
 
-### Home Page:
-<p align="center">
- <img src="https://drive.google.com/uc?export=view&id=1xx0FDbah3uF6loz7lk7S477n_RI3yLyI" width="800" height="auto" alt="Your Image Description">
+**_This project presents an advanced image classification system aimed at recognizing and categorizing mushrooms found across the globe. Leveraging the power of deep learning and transfer learning, the model classifies mushrooms into three major genera:_**
 
-</p>
+- **_Boletus_**
+- **_Lactarius_**
+- **_Russula_**
 
-### Mushroom Classification Result:
-<p align="center">
- <img src="https://drive.google.com/uc?export=view&id=1UprNPKGUj-xzPQNwcYuEQQR4ZTS6x8kM" width="800" height="auto" alt="Classification Results Display">
-</p>
+**_By analyzing visual features through neural networks, the project seeks to support accurate and efficient species identification — a valuable tool for researchers, hobbyists, and mycologists._**
 
-## **Installation and Setup**
+## **_Siru : Assistent_**
 
-### Using Conda (Recommended)
+![Banner](https://github.com/MilakeSuraj/Mushroom-Classification-AI/blob/main/Screenshots/siru_assistent.png?raw=true)
 
-```bash
-# Create a new conda environment
-conda create -n mushroom_classifier python=3.10.16
+## **_Home Screen_**
 
-# Activate the environment
-conda activate mushroom_classifier
+![Banner](https://github.com/MilakeSuraj/Mushroom-Classification-AI/blob/main/Screenshots/HomePage.png?raw=true)
 
-# Clone the repository
-git clone https://github.com/prajwalnikam/AI-Mushroom-Classification-Analysis.git
-cd AI-Mushroom-Classification-Analysis-master
+## **_Input Screen_**
 
-# Install dependencies
-pip install -r requirements.txt
-```
+![Banner](https://github.com/MilakeSuraj/Mushroom-Classification-AI/blob/main/Screenshots/inputtaken.png?raw=true)
 
-### Using Python venv
+## **_Result Screen_**
 
-```bash
-# Create a virtual environment
-python -m venv mushroom_env
+![Banner](https://github.com/MilakeSuraj/Mushroom-Classification-AI/blob/main/Screenshots/outputpage.png?raw=true)
 
-# Activate the environment
-# On Windows:
-mushroom_env\Scripts\activate
-# On macOS/Linux:
-source mushroom_env/bin/activate
+## **_See the demo video by clicking_**
 
-# Install dependencies
-pip install -r requirements.txt
-```
-
-## **Running the Application**
-
-```bash
-# Navigate to the Flask directory
-cd Flask
-
-# Start the web application
-python app.py
-
-# The application will be available at http://localhost:5000
-```
-
-## **Project Structure**
-```
-AI-Mushroom-Classification-Analysis-master/
-├── Dataset/
-│   ├── test/          # Test dataset
-│   └── train/         # Training dataset
-├── Flask/
-│   ├── static/        # Static assets (CSS, JS, images)
-│   ├── templates/     # HTML templates
-│   ├── uploads/       # User uploaded images
-│   └── app.py         # Main Flask application
-├── IBM Files/         # Files related to IBM Cloud deployment
-├── images/            # Project images and screenshots
-├── Training files/    # Training scripts and notebooks
-├── Mushroom Classification Model.h5   # Trained model file
-├── Mushroom Classification Project Demonstration.mp4  # Demo video
-├── README.md          # Project documentation
-└── requirements.txt   # Project dependencies
-```
+[![Watch the demo](https://img.youtube.com/vi/nF007Oxf6AQ/0.jpg)](https://youtu.be/nF007Oxf6AQ)
 
 ## **Technologies Used**
-- Python 3.10
+
+- Python 3.10.16
 - TensorFlow/Keras
 - Flask
 - HTML/CSS/JavaScript
@@ -93,21 +42,43 @@ AI-Mushroom-Classification-Analysis-master/
 - NumPy/Pandas
 
 ## **Model Architecture**
+
 The classification model is built using transfer learning with pre-trained neural networks. The trained model is saved as `Mushroom Classification Model.h5` in the root directory.
 
 ## **Dataset**
+
 The dataset is organized in the Dataset folder with separate test and train directories. It consists of images of three main mushroom genera:
+
 - Boletus
 - Lactarius
 - Russula
 
+## 🌱 **Future Improvements**
 
-## **Future Improvements**
-- Expand classification capabilities to include more mushroom species
-- Implement mobile application for field identification
-- Add detailed information about each mushroom species
-- Integrate geographical data to enhance classification accuracy
+🔍 _Expand dataset to include more mushroom species_
 
-## **Conclusion**
-The mushroom classification project utilizes deep learning and transfer learning techniques to build an accurate and efficient classification system. By leveraging pre-trained models and a comprehensive mushroom dataset, we aim to contribute to the field of mushroom recognition and promote the understanding of mushroom species diversity in different regions.
+📱 _Build a mobile version using Flutter/TensorFlow Lite_
 
+🧾 _Add a knowledge base with mushroom descriptions_
+
+🗺️ _Use location-based data to improve prediction context_
+
+## ✅ **Achievements**
+
+🎯 _Built and trained a robust image classifier with 88% accuracy_
+
+💡 _Deployed an end-to-end Flask web application_
+
+🧠 _Leveraged transfer learning for better performance_
+
+☁️ _Integrated IBM Cloud-ready deployment structure_
+
+## 📌**Conclusion**
+
+This project showcases the potential of deep learning for biodiversity conservation and biological classification. It can assist in the safe identification of mushrooms, promote awareness of species, and serve as a valuable learning tool for enthusiasts and researchers alike.
+
+    🌍 "Empowering nature lovers and scientists with AI tools to explore and protect fungal biodiversity."
+
+### 🙋‍♂️ **Author**
+
+- **_Suraj Vaijnath Milake_**

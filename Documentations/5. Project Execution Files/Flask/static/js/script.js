@@ -21,4 +21,3 @@ document.addEventListener("DOMContentLoaded", function () {
       imagePreview.src = imageData;
     }
   });
-console.log("Sam")  

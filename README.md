@@ -79,6 +79,6 @@ This project showcases the potential of deep learning for biodiversity conservat
 
     🌍 "Empowering nature lovers and scientists with AI tools to explore and protect fungal biodiversity."
 
-### 🙋‍♂️ **Author**
+## 🙋‍♂️ **Author**
 
 - **_Suraj Vaijnath Milake_**
